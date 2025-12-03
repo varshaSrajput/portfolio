@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Varsha Rajput</title>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
     body {
       background-color: #121212;
@@ -21,7 +23,7 @@
     }
 
     .nav-link:hover {
-      color: white !important;
+      color: #ffffff !important;
     }
 
     h2 {
@@ -43,6 +45,20 @@
       color: #00bcd4;
     }
 
+    .about-img-wrapper {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-img {
+      width: 260px;
+      max-width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 3px solid #00bcd4;
+      box-shadow: 0 0 12px rgba(0, 188, 212, 0.4);
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -55,75 +71,104 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg px-4">
     <a class="navbar-brand" href="index.html">Varsha Rajput</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
       <span class="navbar-toggler-icon bg-light"></span>
     </button>
+
     <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link active" href="q_about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Main Content -->
+  <!-- MAIN CONTENT -->
   <section class="container py-5">
-    <h2>About Me</h2>
-    <div class="section-card">
-      <p>Hello! I'm <strong>Varsha Rajput</strong>, an enthusiastic and detail-oriented student pursuing B.E. in Information Science Engineering at SDMCET, Dharwad. I'm passionate about web development, software engineering, and data science. I love solving real-world problems through technology and enjoy creating user-friendly digital experiences.</p>
+
+    <div class="row align-items-center mb-4">
+      <div class="col-md-4 about-img-wrapper">
+        <img src="varsha.jpg" alt="Varsha Rajput" class="about-img">
+      </div>
+      <div class="col-md-8">
+        <h2>About Me</h2>
+        <div class="section-card">
+          <p>
+            I’m <strong>Varsha Rajput</strong>, a 2025 graduate in Information Science Engineering from SDMCET, Dharwad.
+            I enjoy building full-stack applications, designing clean user interfaces, and working on real-time
+            computer-vision projects using Python, Flask, React.js, SQL, OpenCV, and MediaPipe.
+          </p>
+        </div>
+      </div>
     </div>
 
     <h2>Skills</h2>
     <div class="section-card">
       <ul>
-        <li>C, Basics of C++</li>
-        <li>Python (Basics), JavaScript</li>
-        <li>HTML & CSS, React.js, Node.js</li>
-        <li>SQL & Database Management</li>
-        <li>Excel, Power BI, Jupyter Notebook</li>
-        <li>Communication, Leadership, Teamwork</li>
+        <li>Programming: Python, JavaScript, SQL, C, C++</li>
+        <li>Frameworks & Libraries: Flask, React.js, Bootstrap, OpenCV, MediaPipe</li>
+        <li>Databases: MySQL, SQLite</li>
+        <li>Tools: Git, GitHub, VS Code, Jupyter Notebook, Postman, Figma</li>
+        <li>Core: REST APIs, DSA, OOP, Debugging, SDLC, Agile</li>
       </ul>
     </div>
 
     <h2>Internships</h2>
     <div class="section-card">
-      <h5>🌐 Web Development Intern — Interpe (08/2024)</h5>
+      <h5>Software Developer Intern — VRAIO Software Solutions (Apr–Jun 2025)</h5>
       <ul>
-        <li>Built web applications using various programming languages and tools.</li>
-        <li>Collaborated with teams to develop projects in a real-world work environment.</li>
+        <li>Contributed to backend modules using Python and Flask.</li>
+        <li>Worked in Agile sprints and collaborated using Git.</li>
       </ul>
+
       <hr class="text-secondary"/>
-      <h5>💻 Software Developer Intern — VRAIO Software Solutions (04/2025 – Present)</h5>
+
+      <h5>Web Development Intern — InternPe (Jul–Aug 2024)</h5>
       <ul>
-        <li>Learning how to contribute to real-time software projects.</li>
-        <li>Working with developers on live use-case implementations.</li>
+        <li>Developed responsive UIs using HTML, CSS, and JavaScript.</li>
+        <li>Integrated frontend with backend APIs and improved performance.</li>
       </ul>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="section-card">
+      <ul>
+        <li>Complete Python Bootcamp – Udemy</li>
+        <li>Web Development – Technohacks Edutech</li>
+        <li>C++ Bootcamp – LetsUpgrade</li>
+        <li>Power BI Workshop – Techtip</li>
+        <li>AWS for Beginners – Great Learning</li>
+      </ul>
+    </div>
+
+    <h2>Publication</h2>
+    <div class="section-card">
+      <p><strong>“Gesture-Controlled Virtual Keyboard and Paint Tool”</strong>, IJSREM, 2025.</p>
     </div>
 
     <h2>Extracurricular Activities</h2>
     <div class="section-card">
       <ul>
-        <li>Conducted NMMS Training for government school students under Youth For Seva Association</li>
-        <li>Active NSS Member – Participated in blood donation drives and rural outreach programs</li>
-        <li>Selected for Discover Visa Event 2023 for female students</li>
-        <li>Part of the Judgement Committee – INSIGNIA 2023</li>
+        <li>Conducted NMMS training sessions – Youth For Seva.</li>
+        <li>NSS volunteer – blood donation camps and rural outreach.</li>
+        <li>Selected participant – Discover Visa Tech Event 2023.</li>
+        <li>Judging Committee Member – INSIGNIA Technical Fest.</li>
       </ul>
     </div>
+
   </section>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 Varsha Rajput
-  </footer>
+  <footer>&copy; 2025 Varsha Rajput</footer>
 
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
 
 
 
